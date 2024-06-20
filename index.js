@@ -8,7 +8,7 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 let data = [];
 const corsObject = {
-  origin: "http://localhost:3000",
+  origin: "https://onlinegame-f05ihdpr8-henilkhokhariyas-projects.vercel.app",
   optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
   credentials: true,
   methods: "POST,GET,PUT,DELETE",
